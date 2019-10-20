@@ -1,0 +1,3 @@
+<div class="wrapper" [ngStyle]="gridSize">
+    <app-game-elem *ngFor="let elemState of elemStates; let i = index" [state]="elemState" (click)="gameElemClicked(i)"></app-game-elem>
+</div>

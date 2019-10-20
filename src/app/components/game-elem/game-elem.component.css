@@ -1,0 +1,10 @@
+:host {
+    border: 1px solid black;
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+:host:hover {
+    background-color: #ec9999;
+}

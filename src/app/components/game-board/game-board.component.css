@@ -1,0 +1,19 @@
+:host {
+    /* height: 100%; */
+    width: 100%;
+    display: grid;
+    justify-items: center;
+    justify-content: center;
+    user-select: none;
+}
+.wrapper {
+    display: grid;
+    /* grid-template-columns: repeat(3, 50px); */
+    /* grid-template-rows: repeat(3, 100px); */
+    grid-auto-columns: 50px;
+    grid-auto-rows: 50px;
+    padding: 50px;
+    /* height: 100%;
+    width: 100%; */
+}
+
